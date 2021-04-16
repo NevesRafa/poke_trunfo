@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Poketrunfo</string>
+
+    <string name="atr_forca" formatted="false">Força: %d</string>
+    <string name="atr_ataque" formatted="false">Ataque: %d</string>
+    <string name="atr_defesa" formatted="false">Defesa: %d</string>
+
+    <string name="player_score" formatted="false">Jogador 1: %d carta</string>
+    <string name="player_scores" formatted="false">Jogador 1: %d carta</string>
+    <string name="computer_score" formatted="false">Computador: %d carta</string>
+    <string name="computer_scores" formatted="false">Computador: %d cartas</string>
+    <string name="Play">Jogar</string>
+    <string name="power">Força</string>
+    <string name="attack">Ataque</string>
+    <string name="defense">Defesa</string>
+    <string name="start">Start</string>
+    <string name="next_round">Proximo Round</string>
+    <string name="new_game">Novo Jogo</string>
+
+</resources>

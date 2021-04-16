@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arena">
+
+    <!-- CARD 1 -->
+
+    <ImageView
+        android:id="@+id/card"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:adjustViewBounds="true"
+        android:elevation="1dp"
+        android:src="@drawable/basic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/proximoRound"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="8dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="@id/card"
+        app:layout_constraintEnd_toEndOf="@id/card"
+        app:layout_constraintStart_toStartOf="@id/card"
+        app:layout_constraintTop_toTopOf="@id/card" />
+
+    <TextView
+        android:id="@+id/nomePokemon"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="32dp"
+        android:elevation="2dp"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/imagePokemon"
+        app:layout_constraintEnd_toEndOf="@id/card"
+        app:layout_constraintStart_toStartOf="@id/card"
+        app:layout_constraintTop_toTopOf="@id/card"
+        tools:text="bulba" />
+
+
+    <ImageView
+        android:id="@+id/imagePokemon"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:adjustViewBounds="true"
+        app:layout_constraintBottom_toTopOf="@id/radioGroup"
+        app:layout_constraintEnd_toEndOf="@id/card"
+        app:layout_constraintStart_toStartOf="@id/card"
+        app:layout_constraintTop_toBottomOf="@id/nomePokemon" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="50dp"
+        android:elevation="2dp"
+        android:gravity="center_vertical"
+        app:layout_constraintBottom_toBottomOf="@id/card"
+        app:layout_constraintEnd_toEndOf="@id/card"
+        app:layout_constraintStart_toStartOf="@id/card"
+        app:layout_constraintTop_toBottomOf="@id/imagePokemon">
+
+        <RadioButton
+            android:id="@+id/forca"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_marginTop="8dp"
+            android:buttonTint="@color/black"
+            android:fontFamily="casual"
+            android:text="@string/power"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/ataque"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_marginTop="8dp"
+            android:buttonTint="@color/black"
+            android:fontFamily="casual"
+            android:text="@string/attack"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/defesa"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_marginTop="8dp"
+            android:buttonTint="@color/black"
+            android:fontFamily="casual"
+            android:text="@string/defense"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+    </RadioGroup>
+
+    <!-- CARD 2 -->
+
+    <ImageView
+        android:id="@+id/cardJogador2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:adjustViewBounds="true"
+        android:elevation="1dp"
+        android:src="@drawable/basic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/proximoRound"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="8dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="@id/cardJogador2"
+        app:layout_constraintEnd_toEndOf="@id/cardJogador2"
+        app:layout_constraintStart_toStartOf="@id/cardJogador2"
+        app:layout_constraintTop_toTopOf="@id/cardJogador2" />
+
+    <TextView
+        android:id="@+id/nomePokemonJogador2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="32dp"
+        android:elevation="2dp"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/imagePokemonJogador2"
+        app:layout_constraintEnd_toEndOf="@id/cardJogador2"
+        app:layout_constraintStart_toStartOf="@id/cardJogador2"
+        app:layout_constraintTop_toTopOf="@id/cardJogador2"
+        tools:text="bulba" />
+
+
+    <ImageView
+        android:id="@+id/imagePokemonJogador2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:adjustViewBounds="true"
+        app:layout_constraintBottom_toTopOf="@id/radioGroupJogador2"
+        app:layout_constraintEnd_toEndOf="@id/cardJogador2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/cardJogador2"
+        app:layout_constraintTop_toBottomOf="@id/nomePokemonJogador2" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupJogador2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="50dp"
+        android:elevation="2dp"
+        android:gravity="center_vertical"
+        app:layout_constraintBottom_toBottomOf="@id/cardJogador2"
+        app:layout_constraintEnd_toEndOf="@id/cardJogador2"
+        app:layout_constraintStart_toStartOf="@id/cardJogador2"
+        app:layout_constraintTop_toBottomOf="@id/imagePokemonJogador2">
+
+        <RadioButton
+            android:id="@+id/forcaJogador2"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_marginTop="8dp"
+            android:buttonTint="@color/black"
+            android:enabled="false"
+            android:fontFamily="casual"
+            android:text="@string/power"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/ataqueJogador2"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_marginTop="8dp"
+            android:buttonTint="@color/black"
+            android:enabled="false"
+            android:fontFamily="casual"
+            android:text="@string/attack"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/defesaJogador2"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_marginTop="8dp"
+            android:buttonTint="@color/black"
+            android:enabled="false"
+            android:fontFamily="casual"
+            android:text="@string/defense"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/background_botao"
+        android:text="@string/start"
+        android:textColor="@color/text_color"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@id/card"
+        app:layout_constraintEnd_toStartOf="@id/cardJogador2"
+        app:layout_constraintStart_toEndOf="@id/card"
+        app:layout_constraintTop_toBottomOf="@id/proximoRound" />
+
+    <Button
+        android:id="@+id/proximoRound"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="8dp"
+        android:backgroundTint="@color/background_botao"
+        android:enabled="false"
+        android:text="@string/next_round"
+        android:textColor="@color/text_color"
+        app:layout_constraintBottom_toTopOf="@id/start"
+        app:layout_constraintEnd_toStartOf="@id/cardJogador2"
+        app:layout_constraintStart_toEndOf="@id/card"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <TextView
+        android:id="@+id/placarJogador1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="8dp"
+        android:background="@drawable/fundo_placar"
+        android:paddingHorizontal="12dp"
+        android:paddingVertical="8dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toStartOf="@id/cardJogador2"
+        app:layout_constraintStart_toEndOf="@id/card"
+        app:layout_constraintTop_toTopOf="@id/card"
+        tools:text="Jogador 1: 10 cartas" />
+
+    <TextView
+        android:id="@+id/placarJogador2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/fundo_placar"
+        android:paddingHorizontal="12dp"
+        android:paddingVertical="8dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toStartOf="@id/cardJogador2"
+        app:layout_constraintStart_toEndOf="@id/card"
+        app:layout_constraintTop_toBottomOf="@id/placarJogador1"
+        tools:text="Jogador 2: 10 cartas" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
