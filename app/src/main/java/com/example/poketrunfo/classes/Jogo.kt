@@ -24,21 +24,24 @@ class Jogo {
             300,
             250,
             450,
-            "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png"
+            "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png",
+            "A"
         ),
         Pokemon(
             "Charmander",
             350,
             400,
             300,
-            "https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png"
+            "https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png",
+            "A"
         ),
         Pokemon(
             "Squirtle",
             400,
             450,
             400,
-            "https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png"
+            "https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png",
+            "A"
         ),
         Pokemon(
             "Caterpie",
@@ -46,161 +49,184 @@ class Jogo {
             100,
             50,
             300,
-            "https://assets.pokemon.com/assets/cms2/img/pokedex/full/010.png"
+            "https://assets.pokemon.com/assets/cms2/img/pokedex/full/010.png",
+            "C"
         ),
         Pokemon(
             "Weedle",
             50,
             15,
             150,
-            "https://assets.pokemon.com/assets/cms2/img/pokedex/full/013.png"
+            "https://assets.pokemon.com/assets/cms2/img/pokedex/full/013.png",
+            "C"
         ),
         Pokemon(
             "Pidgey",
             150,
             250,
             350,
-            "https://assets.pokemon.com/assets/cms2/img/pokedex/full/016.png"
+            "https://assets.pokemon.com/assets/cms2/img/pokedex/full/016.png",
+            "B"
         ),
         Pokemon(
             "Rattata",
             350,
             200,
             150,
-            "https://assets.pokemon.com/assets/cms2/img/pokedex/full/019.png"
+            "https://assets.pokemon.com/assets/cms2/img/pokedex/full/019.png",
+            "D"
         ),
         Pokemon(
             "Spearow",
             400,
             350,
             230,
-            "https://assets.pokemon.com/assets/cms2/img/pokedex/full/021.png"
+            "https://assets.pokemon.com/assets/cms2/img/pokedex/full/021.png",
+            "C"
         ),
         Pokemon(
             "Ekans",
             150,
             250,
             100,
-            "https://assets.pokemon.com/assets/cms2/img/pokedex/full/023.png"
+            "https://assets.pokemon.com/assets/cms2/img/pokedex/full/023.png",
+            "D"
         ),
         Pokemon(
             "Pikachu",
             490,
             480,
             450,
-            "https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png"
+            "https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png",
+            "A"
         ),
         Pokemon(
             "Sandshrew",
             300,
             250,
             400,
-            "https://assets.pokemon.com/assets/cms2/img/pokedex/full/027.png"
+            "https://assets.pokemon.com/assets/cms2/img/pokedex/full/027.png",
+            "C"
         ),
         Pokemon(
             "Nidoran ♀",
             350,
             300,
             250,
-            "https://assets.pokemon.com/assets/cms2/img/pokedex/full/029.png"
+            "https://assets.pokemon.com/assets/cms2/img/pokedex/full/029.png",
+            "C"
         ),
         Pokemon(
             "Nidoran ♂",
             350,
             300,
             250,
-            "https://assets.pokemon.com/assets/cms2/img/pokedex/full/032.png"
+            "https://assets.pokemon.com/assets/cms2/img/pokedex/full/032.png",
+            "C"
         ),
         Pokemon(
             "Clefairy",
             150,
             100,
             300,
-            "https://assets.pokemon.com/assets/cms2/img/pokedex/full/035.png"
+            "https://assets.pokemon.com/assets/cms2/img/pokedex/full/035.png",
+            "C"
         ),
         Pokemon(
             "Vulpix",
             200,
             250,
             300,
-            "https://assets.pokemon.com/assets/cms2/img/pokedex/full/037.png"
+            "https://assets.pokemon.com/assets/cms2/img/pokedex/full/037.png",
+            "C"
         ),
         Pokemon(
             "Jigglypuff",
             80,
             150,
             50,
-            "https://assets.pokemon.com/assets/cms2/img/pokedex/full/039.png"
+            "https://assets.pokemon.com/assets/cms2/img/pokedex/full/039.png",
+            "D"
         ),
         Pokemon(
             "Zubat",
             100,
             80,
             300,
-            "https://assets.pokemon.com/assets/cms2/img/pokedex/full/041.png"
+            "https://assets.pokemon.com/assets/cms2/img/pokedex/full/041.png",
+            "D"
         ),
         Pokemon(
             "Oddish",
             200,
             100,
             200,
-            "https://assets.pokemon.com/assets/cms2/img/pokedex/full/043.png"
+            "https://assets.pokemon.com/assets/cms2/img/pokedex/full/043.png",
+            "D"
         ),
         Pokemon(
             "Paras",
             200,
             90,
             150,
-            "https://assets.pokemon.com/assets/cms2/img/pokedex/full/046.png"
+            "https://assets.pokemon.com/assets/cms2/img/pokedex/full/046.png",
+            "D"
         ),
         Pokemon(
-            "Mewtwo (SuperTrunfo )",
+            "Mewtwo",
             500,
             500,
             500,
-            "https://assets.pokemon.com/assets/cms2/img/pokedex/full/150.png"
+            "https://assets.pokemon.com/assets/cms2/img/pokedex/full/150.png",
+            "S"
         ),
         Pokemon(
             "Venonat",
             250,
             200,
             150,
-            "https://assets.pokemon.com/assets/cms2/img/pokedex/full/048.png"
+            "https://assets.pokemon.com/assets/cms2/img/pokedex/full/048.png",
+            "D"
         ),
         Pokemon(
             "Diglett",
             300,
             450,
             250,
-            "https://assets.pokemon.com/assets/cms2/img/pokedex/full/050.png"
+            "https://assets.pokemon.com/assets/cms2/img/pokedex/full/050.png",
+            "D"
         ),
         Pokemon(
             "Meowth",
             400,
             350,
             450,
-            "https://assets.pokemon.com/assets/cms2/img/pokedex/full/052.png"
+            "https://assets.pokemon.com/assets/cms2/img/pokedex/full/052.png",
+            "B"
         ),
         Pokemon(
             "Psyduck",
             450,
             100,
             150,
-            "https://assets.pokemon.com/assets/cms2/img/pokedex/full/054.png"
+            "https://assets.pokemon.com/assets/cms2/img/pokedex/full/054.png",
+            "B"
         ),
         Pokemon(
             "Mankey",
             280,
             350,
             300,
-            "https://assets.pokemon.com/assets/cms2/img/pokedex/full/056.png"
+            "https://assets.pokemon.com/assets/cms2/img/pokedex/full/056.png",
+            "B"
         ),
         Pokemon(
             "Growlithe",
             200,
             380,
             250,
-            "https://assets.pokemon.com/assets/cms2/img/pokedex/full/058.png"
+            "https://assets.pokemon.com/assets/cms2/img/pokedex/full/058.png",
+            "B"
         ),
 //   ?
         Pokemon(
@@ -208,7 +234,8 @@ class Jogo {
             490,
             450,
             100,
-            "https://assets.pokemon.com/assets/cms2/img/pokedex/full/063.png"
+            "https://assets.pokemon.com/assets/cms2/img/pokedex/full/063.png",
+            "B"
         )
     )
 
@@ -276,6 +303,25 @@ class Jogo {
     private fun comparaAtributos(atributoJogador1: Int, atributoJogador2: Int): Int {
 
         val resultado: Int  // val resultado, foi criada para retornar meu resultado.
+
+        if(guardaCartaJogador1?.classe == "S" && guardaCartaJogador2?.classe != "A"){
+            jogador1?.cartasJogador?.add(guardaCartaJogador1!!)
+            jogador1?.cartasJogador?.add(guardaCartaJogador2!!)
+            resultado = EstadoRound.VITORIA_JOGADOR1
+            guardaCartaJogador1 = null
+            guardaCartaJogador2 = null
+            return resultado
+        }else if (guardaCartaJogador2?.classe == "S" && guardaCartaJogador1?.classe != "A"){
+            jogador2?.cartasJogador?.add(guardaCartaJogador2!!)
+            jogador2?.cartasJogador?.add(guardaCartaJogador1!!)
+            resultado = EstadoRound.VITORIA_JOGADOR2
+            guardaCartaJogador1 = null
+            guardaCartaJogador2 = null
+            return resultado
+        }
+
+
+
 
         // Se o atributo do jogador1 for maior que do jogador2, pega as cartas que estão em jogo e coloca no deck do jogador1.
         //  A var resultado recebe VITORIA_JOGADOR1.
